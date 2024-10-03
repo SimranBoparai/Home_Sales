@@ -14,7 +14,7 @@
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Code Example](#code-example)
-  - [Three-Bedromm, Three-Bathroom Average Home Prices Output](#three-bedromm-three-bathroom-average-home-prices-output)
+  - [Four-Bedroom Average Home Price(s) Output](#four-bedroom-average-home-prices-output)
 - [Analysis](#analysis)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
@@ -92,7 +92,7 @@ avg_df = spark.sql("""
 avg_df.show()
 ```
 
-## Three-Bedromm, Three-Bathroom Average Home Prices Output
+## Four-Bedroom Average Home Price(s) Output
 ![Figure 1](Images/Figure1.png)
 
 # Analysis
