@@ -14,7 +14,7 @@
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Code Example](#code-example)
-  - [Figure 1](#figure-1)
+  - [Three-Bedromm, Three-Bathroom Average Home Prices Output](#three-bedromm-three-bathroom-average-home-prices-output)
 - [Analysis](#analysis)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
@@ -92,8 +92,8 @@ avg_df = spark.sql("""
 avg_df.show()
 ```
 
-## Figure 1
-
+## Three-Bedromm, Three-Bathroom Average Home Prices Output
+![Figure 1](Images/Figure1.png)
 
 # Analysis
 1. The average price for a four-bedroom house between 2019 and 2022 ranged from $296,000 to $301,000, with slight fluctuations, reaching a peak of $301,819.44 in 2021.
