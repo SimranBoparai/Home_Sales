@@ -10,10 +10,11 @@
 - [Prerequisites](#prerequisites)
   - [Required Tools](#required-tools)
   - [Windows Installation Process](#windows-installation-process)
-  - [Repository Setup:](#repository-setup)
+  - [Repository Setup](#repository-setup)
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Code Example](#code-example)
+  - [Figure 1](#figure-1)
 - [Analysis](#analysis)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
@@ -40,7 +41,7 @@ For the Home Sales Challenge, ensure you complete the following requirement
      pip install pyspark
    ```
 
-## Repository Setup:
+## Repository Setup
   - Create a new repository called ```home_sales-challenge``` on GitHub with a README file
   - Clone the repository to your local machine:   
   ```git clone https://github.com/yourusername/home-sales.git``` 
@@ -57,6 +58,7 @@ git push origin main
 # Repository Structure
 ```
 ├── Home_Sales/
+│   ├── Images
 │   ├── Home_Sales_colab
 │   ├── README.md
 │   └── .gitignore
@@ -89,6 +91,8 @@ avg_df = spark.sql("""
 """)
 avg_df.show()
 ```
+
+## Figure 1
 
 
 # Analysis
